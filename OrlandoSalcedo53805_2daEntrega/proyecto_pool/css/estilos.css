@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    color:black
+}
+
+.bgNavegacion{
+    background-color: whitesmoke;
+    .logo{
+        width: 50px;
+        margin-left:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar-nav{
+        .nav-link.colorNegro{
+            color:#000000;
+            &:hover{
+                color:#0a33a3;
+                border-bottom: 2px solid #0a33a3;
+            }
+        }
+        .nav-link.colorAzul{
+            color:#0a33a3;
+            &:hover{
+                border-bottom: 2px solid #0a33a3;
+            }
+        }
+    }
+}
+
+.bgFooter{
+    background-color: whitesmoke;
+}
+
+.lista{
+    list-style: none;
+    color:black;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.bgDark{
+    background-color: darkgrey;
+    padding-bottom:2px;
+    margin-bottom:0;
+}
+
+
+@media screen and (max-width: 768px){
+    .imgMobile{
+        background-image: url("../assets/img/parque\ acuatico.jpeg");
+        background-size: cover;
+        width:100%;
+        height:60vh;
+    }
+}
+
+.imgIndex{
+    background-image: url("../assets/img/tratamiento-de-aguas-residuales.jpg");
+    background-size: cover;
+    width:100%;
+    height:80vh;
+}
+
+.btn-azul{
+    color:#ffffff;
+    background-color: #0a33a37c;
+    border-color: #0a33a37c;
+}
